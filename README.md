@@ -2,6 +2,13 @@
 
 A modular Python toolkit for medical image segmentation, focusing on bone segmentation from CT scans. Implements and compares multiple classical segmentation algorithms including active contours, level sets, watershed, and edge detection methods.
 
+## Sample Results
+
+| Level-Set Segmentation (MorphACWE) | Watershed Segmentation |
+|:--:|:--:|
+| ![Level-set result](assets/levelset_result.png) | ![Watershed result](assets/watershed_result.jpg) |
+| Chan-Vese level set isolating a vertebral body from a sagittal CT slice (smoothing=4, λ1=3, λ2=1) | Watershed contour overlay on a sagittal spinal CT scan |
+
 ## Project Structure
 
 ```
